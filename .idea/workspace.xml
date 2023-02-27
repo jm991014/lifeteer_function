@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ace7de9-413d-4581-a676-a0e1e3b6829b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lifeteer_function.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lifeteer_function.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_view/app/src/main/java/com/example/main_view/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/main_view/app/src/main/java/com/example/main_view/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_view/app/src/main/res/layout/diary_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_view/app/src/main/res/layout/one_diary_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_view/app/src/main/res/layout/main_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main_view/app/src/main/res/layout/one_main_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingFragmentA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingPage/LandingFragmentA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingFragmentB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingPage/LandingFragmentB.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingFragmentC.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifeteer_ex1/app/src/main/java/com/example/lifeteer_ex1/LandingPage/LandingFragmentC.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +38,17 @@
     "WebServerToolWindowFactoryState": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/GIT/lifeteer_function",
+    "last_opened_file_path": "D:/GIT/lifeteer_function/lifeteer_ex1",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GIT\lifeteer_function\lifeteer_ex1\app\src\main\java\com\example\lifeteer_ex1\LandingPage" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,5 +63,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
