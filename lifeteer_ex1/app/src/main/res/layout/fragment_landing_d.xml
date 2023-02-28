@@ -1,14 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".A_StartPage.LandingFragmentD">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView"
+            android:layout_width="16dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="362dp"
+            android:layout_height="281dp"
+            android:layout_marginTop="156dp"
+            android:src="@drawable/sitting_pose2x"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFilterView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="-134dp" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/landing_dot"
+            app:layout_constraintBottom_toTopOf="@+id/btn_start" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/imageFilterView3"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/landing_dot"
+            app:layout_constraintBottom_toTopOf="@+id/btn_start"
+            app:layout_constraintEnd_toStartOf="@+id/imageFilterView4" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/fragD_img_dot3"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/landing_dot"
+            app:layout_constraintBottom_toTopOf="@+id/btn_start"
+            app:layout_constraintEnd_toStartOf="@+id/img_line" />
+
+        <androidx.constraintlayout.utils.widget.ImageFilterView
+            android:id="@+id/fragD_img_line"
+            android:layout_width="50dp"
+            android:layout_height="7dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/landing_line"
+            app:layout_constraintBottom_toTopOf="@+id/btn_start"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/fragD_btn_start"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="42dp"
+            android:backgroundTint="@color/mindset_main_green"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center"
+            android:text="마음짓기 시작하기"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </FrameLayout>
