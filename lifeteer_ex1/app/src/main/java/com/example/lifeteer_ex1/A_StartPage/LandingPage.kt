@@ -14,6 +14,11 @@ import com.example.lifeteer_ex1.databinding.ActivityMainBinding
 class LandingPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
+
+
+
         val binding = ActivityLandingPageBinding.inflate(layoutInflater)
         // val binding으로 하는것과 lazy나 latinent를 사용해서 하는 것의 차이는?
         // 1. 페이지 데이터 로드
