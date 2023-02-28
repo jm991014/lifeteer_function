@@ -8,19 +8,22 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.lifeteer_ex1.LandingFragmentA
 import com.example.lifeteer_ex1.LandingFragmentB
 import com.example.lifeteer_ex1.LandingFragmentC
+import com.example.lifeteer_ex1.databinding.ActivityLandingPageBinding
 import com.example.lifeteer_ex1.databinding.ActivityMainBinding
 
 class LandingPage : AppCompatActivity() {
-    val binding by lazy { ActivityMainBinding.inflate(layoutInflater) }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
-
+        val binding = ActivityLandingPageBinding.inflate(layoutInflater)
+        // val binding으로 하는것과 lazy나 latinent를 사용해서 하는 것의 차이는?
         // 1. 페이지 데이터 로드
-        val list = listOf(LandingFragmentA(), LandingFragmentB(), LandingFragmentC())
+        val list = listOf(LandingFragmentA(), LandingFragmentB(), LandingFragmentC(), LandingFragmentD())
         // 2. adaptor 생성
         val pagerAdapter = FragmentPagerAdapter(list, this)
         // 3. adapter & viewpager 연결
+        binding.viewPager.adapter = pagerAdapter
+        setContentView(binding.root)
+
 
     }
 }
