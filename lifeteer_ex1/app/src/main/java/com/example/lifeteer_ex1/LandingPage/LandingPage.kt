@@ -1,4 +1,4 @@
-package com.example.lifeteer_ex1
+package com.example.lifeteer_ex1.LandingPage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,6 +21,7 @@ class LandingPage : AppCompatActivity() {
         // 2. adaptor 생성
         val pagerAdapter = FragmentPagerAdapter(list, this)
         // 3. adapter & viewpager 연결
+        binding.viewPager
     }
 }
 
