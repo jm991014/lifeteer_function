@@ -48,6 +48,7 @@
         android:layout_width="335dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/kakaotalk_yellow"
+        android:fadingEdge="none"
         android:text="카카오톡으로 시작하기"
         android:textColor="@color/mindset_main_black"
         app:layout_constraintBottom_toTopOf="@+id/btn_email"

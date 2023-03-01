@@ -40,8 +40,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="67dp"
-            tools:layout_editor_absoluteY="-134dp" />
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="7dp" />
 
         <androidx.constraintlayout.utils.widget.ImageFilterView
             android:layout_width="7dp"

@@ -1,5 +1,6 @@
 package com.example.lifeteer_ex1.A_Start
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,10 +12,11 @@ import com.example.lifeteer_ex1.LandingFragmentC
 import com.example.lifeteer_ex1.databinding.ActivityLandingViewPageBinding
 
 class LandingViewPage : AppCompatActivity() {
+
+    val binding by lazy {ActivityLandingViewPageBinding.inflate(layoutInflater)}
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val binding = ActivityLandingViewPageBinding.inflate(layoutInflater)
         // val binding으로 하는것과 lazy나 latinent를 사용해서 하는 것의 차이는?
         // 1. 페이지 데이터 로드
         val list = listOf(LandingFragmentA(), LandingFragmentB(), LandingFragmentC(), LandingFragmentD())
