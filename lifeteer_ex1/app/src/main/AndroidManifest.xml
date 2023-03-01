@@ -17,7 +17,7 @@
             android:label="@string/title_activity_landing_page"
             android:theme="@style/Theme.Lifeteer_ex1.NoActionBar" />
         <activity
-            android:name=".A_StartPage.SplashPage"
+            android:name=".A_Start.SplashPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,13 +26,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".A_StartPage.LandingPage"
+            android:name=".A_Start.LandingPage"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".B_Login.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".C_Main.MainActivity"
             android:exported="false" />
     </application>
 

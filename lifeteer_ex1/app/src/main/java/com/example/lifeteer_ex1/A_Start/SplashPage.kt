@@ -1,14 +1,10 @@
-package com.example.lifeteer_ex1.A_StartPage
+package com.example.lifeteer_ex1.A_Start
 
-import android.app.Activity
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.WindowInsets
-import android.view.WindowManager
 import androidx.core.content.ContextCompat
 import com.example.lifeteer_ex1.R
 import com.example.lifeteer_ex1.databinding.ActivitySplashPageBinding

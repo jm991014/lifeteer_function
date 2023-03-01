@@ -1,4 +1,4 @@
-package com.example.lifeteer_ex1.A_StartPage
+package com.example.lifeteer_ex1.A_Start
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

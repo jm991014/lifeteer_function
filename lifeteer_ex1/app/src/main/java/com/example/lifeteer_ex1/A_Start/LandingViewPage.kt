@@ -1,4 +1,4 @@
-package com.example.lifeteer_ex1.A_StartPage
+package com.example.lifeteer_ex1.A_Start
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
