@@ -9,9 +9,7 @@ data class EmgMedResponse(
 )
 
 data class EmgMedInfo(
-    @field:Json(name = "head")
     val head: List<Head?>?,
-    @field:Json(name = "row")
     val row: List<Row?>?
 )
 
