@@ -49,20 +49,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="414dp">
 
-    </RelativeLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="혹시 닉네임(별명)이 있나요?"
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="515dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -70,11 +57,17 @@
         android:text="Q4"
         tools:layout_editor_absoluteX="79dp"
         tools:layout_editor_absoluteY="416dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="혹시 닉네임(별명)이 있나요?"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="515dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="391dp"
-        android:layout_height="291dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="537dp" />
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

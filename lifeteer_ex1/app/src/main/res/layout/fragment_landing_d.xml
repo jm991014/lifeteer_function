@@ -13,17 +13,6 @@
         android:layout_height="match_parent">
 
         <androidx.constraintlayout.utils.widget.ImageFilterView
-            android:id="@+id/imageFilterView"
-            android:layout_width="16dp"
-            android:layout_height="28dp"
-            android:layout_marginTop="28dp"
-            android:src="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.071"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <androidx.constraintlayout.utils.widget.ImageFilterView
             android:layout_width="362dp"
             android:layout_height="281dp"
             android:layout_marginTop="156dp"
