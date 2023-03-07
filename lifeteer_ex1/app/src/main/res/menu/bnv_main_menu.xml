@@ -4,21 +4,14 @@
 
     <item
         android:icon="@drawable/mindset_fill"
-        android:title="마음짓기"
-        />
+        android:title="마음짓기" />
     <item
         android:icon="@drawable/diary"
-        android:title="일기"
-        />
+        android:title="일기" />
     <item
         android:icon="@drawable/recorded_will"
-        android:title="음성유언"
-        />
+        android:title="음성유언" />
     <item
-        android:icon="@drawable/bucket_list"
-        android:title="마이페이지"
-
-        />
-
-
+        android:icon="@drawable/my_page"
+        android:title="마이페이지" />
 </menu>
