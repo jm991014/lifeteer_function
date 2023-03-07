@@ -18,14 +18,10 @@ class SplashPage : AppCompatActivity() {
             this, R.color.mindset_main_background) //status bar를 background 색과 맞춰줌.
 
         binding = ActivitySplashPageBinding.inflate(layoutInflater)
-        val view = binding.root
-        setContentView(view)
+        setContentView(binding.root)
 
         Handler(Looper.getMainLooper()).postDelayed({
-
-            val intent = Intent(this, LandingPage::class.java)
-            startActivity(intent)
-
+            startActivity(Intent(this, LandingPage::class.java))
             finish() // 이전 키를 눌렀을 때를 방지하기 위한 finish
         }, 2000) //2초 이후 실행
     }

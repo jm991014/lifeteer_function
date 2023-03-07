@@ -11,7 +11,8 @@ class LandingPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        val intent = Intent(this, LandingViewPage::class.java)
-        binding.btnKnow.setOnClickListener{startActivity(intent)}
+        binding.btnKnow.setOnClickListener {
+            startActivity(Intent(this, LandingViewPage::class.java))
+        }
     }
 }
