@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/mindset_fill"
+        android:title="마음짓기"
+        />
+    <item
+        android:icon="@drawable/diary"
+        android:title="일기"
+        />
+    <item
+        android:icon="@drawable/recorded_will"
+        android:title="음성유언"
+        />
+    <item
+        android:icon="@drawable/bucket_list"
+        android:title="마이페이지"
+
+        />
+
+
+</menu>

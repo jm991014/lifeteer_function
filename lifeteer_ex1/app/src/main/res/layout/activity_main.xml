@@ -65,9 +65,14 @@
         tools:layout_editor_absoluteY="515dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnv_main"
         android:layout_width="match_parent"
         android:layout_height="92dp"
+        android:background="@color/design_default_color_background"
+        app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bnv_main_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
