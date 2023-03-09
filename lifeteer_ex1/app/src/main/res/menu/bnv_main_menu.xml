@@ -3,15 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:icon="@drawable/mindset_fill"
-        android:title="마음짓기" />
+        android:icon="@drawable/selector_mindset_icon"
+        android:title="마음짓기"
+        android:id="@+id/mindset"
+        />
     <item
-        android:icon="@drawable/diary"
-        android:title="일기" />
+        android:icon="@drawable/selector_diary_icon"
+        android:title="일기"
+        android:id="@+id/diary"
+        />
     <item
-        android:icon="@drawable/recorded_will"
-        android:title="음성유언" />
+        android:icon="@drawable/selector_recorded_icon"
+        android:title="음성유언"
+        android:id="@+id/recorded"
+        />
     <item
-        android:icon="@drawable/my_page"
-        android:title="마이페이지" />
+        android:icon="@drawable/selector_mypage_icon"
+        android:title="마이페이지"
+        android:id="@+id/mypage"
+        />
 </menu>

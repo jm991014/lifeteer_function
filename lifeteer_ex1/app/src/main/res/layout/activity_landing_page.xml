@@ -24,12 +24,12 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animation_laptop"
-        android:layout_width="537dp"
-        android:layout_height="488dp"
-        android:layout_margin="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_know"
+        android:layout_width="628dp"
+        android:layout_height="472dp"
+
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:lottie_autoPlay="true"
