@@ -12,6 +12,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_sit"
+            android:layout_width="494dp"
+            android:layout_height="441dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/sit" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/pretendard_bold"
+            android:gravity="center"
+            android:text="서두르지 마세요!"
+            android:textColor="@color/mindset_main_black"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/animation_sit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="center"
+            android:text="언제든 괜찮으니 마음을 정리하고 싶을때\n찾아와 주세요. 기다리고 있을게요 :)"
+            android:textColor="@color/mindset_disabled_text"
+
+            android:textSize="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
         <Button
             android:id="@+id/fragD_btn_start"
             android:layout_width="350dp"

@@ -26,8 +26,6 @@
         android:id="@+id/animation_laptop"
         android:layout_width="628dp"
         android:layout_height="472dp"
-
-        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
